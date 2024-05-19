@@ -1,0 +1,100 @@
+@charset "UTF8";
+@font-face {
+    font-family: 'FontLogo';
+    src: url("../_fonts/bubblegum-sans-regular.otf");
+} 
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #dddddd;
+    color: rgba(0,0,0,1);
+   
+}
+
+
+
+div#interface {
+    width: 100%;
+    background-color: #ffffff;
+    margin: -30px auto 0px auto;
+    box-shadow: 0px, 0px, 10px, rgba(0,0,0,.5);
+    padding: 0px;
+}
+
+img#central {
+    width: 100%;    
+}
+
+header#cabecalho h1 {
+    font-family: 'FonteLogo',  sans-serif;
+    font-size: 30pt;
+    color: #606060;
+    text-shadow: 1px, 1px, 1px, rgba(0,0,0,.6);
+    text-align: center;
+    padding: 0px;
+    margin-bottom: 0px;
+}
+
+header#cabecalho h2 {
+    text-align: center;
+    padding: 5px;
+}
+
+nav#menu ul {
+    list-style: block;
+    
+   
+    
+}
+
+
+nav#menu {
+    display: inline-block;
+    font-size: 16.5pt;
+   
+    
+    
+}
+
+nav#menu li {
+    display: inline-block;
+    padding: 5px;
+    margin: 0px;
+    border-bottom: 0px #606060 solid;
+    height: 150px;
+    
+}
+
+
+
+a {
+    color: black;
+    text-decoration: underline;
+}
+
+a:hover {
+    text-decoration: underline;
+    
+}
+
+nav#menu a:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+img#icone {
+    position: absolute;
+    
+}
+
+
+
+
+div#burguer {
+        
+  display: none;
+      
+} 
+    
+
