@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Suporte Farmacia Central</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
+    <link rel="stylesheet" type="text/css" href="_css/estilo.css"/>
+    <link rel="stylesheet" type="text/css" href="_css/mediascreen.css"/>
+    <script language="javascript" src="_javascript/funcoes.js"></script>
+</head>
+<body onresize="mudouTamanho()">
+    <header id="cabecalho">
+        <h1>Site de suporte Farmacia Central</h1> 
+        <h2>Seja bem vindo a nosso site de agendamentos</h2>
+   </header>
+<img id="central" src="_imagens/phar-farm-gran.jpg.jpg"/>
+ <div id="interface">
+  <header id="cabecalho">           
+          <ul type="disc">
+            <h1>Menu Principal</h1>
+            <div id="burguer" class="material-icons"   onclick="clickMenu()">menu</div> 
+            <nav id="menu">         
+<li onmouseover="mudaFoto('imagensconfig/phar-ajuda.png.png')" onmouseout="mudaFoto('imagensconfig/phar-menu.png.png')"><a href="ajuda.html">Ajuda</a></li>
+<li onmouseover="mudaFoto('imagensconfig/phar-med-mun.png.png')" onmouseout="mudaFoto('imagensconfig/phar-menu.png.png')"><a href="agenda.html">Medicamentos do Município</a></li>
+<li onmouseover="mudaFoto('imagensconfig/phar-med-est.png.png')" onmouseout="mudaFoto('imagensconfig/phar-menu.png.png')"><a href="agenda.html">Medicamentos do Estado</a></li>
+<li onmouseover="mudaFoto('imagensconfig/phar-proces.png.png')" onmouseout="mudaFoto('imagensconfig/phar-menu.png.png')"><a href="agenda.html">Atendimento de Processo</a></li>
+<img id="icone" src="imagensconfig/phar-menu.png.png"/>
+          </ul>
+        </nav>
+      </div>
+    </header>
+  </body>
+</html>
